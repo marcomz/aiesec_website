@@ -178,8 +178,8 @@ var index = function(){
 			$.ajax({
 				type: "POST",
 				dataType:"html",
-				//url: 'http://api.aiesec.org.mx/gis_auth.php',
-				url: 'get_token.php',
+				url: 'http://api.aiesec.org.mx/gis_auth.php',
+				//url: 'get_token.php',
 				data: 'email='+correo+'&password='+pass,
 				cache: false,
 				success: function(result) {
