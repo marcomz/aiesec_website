@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es-Es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Aiesec México</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- javascript -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+
+  <script> 
+    $(function(){
+      $("#myNavDiv").load("navbar-f.html"); 
+    });
+    </script>
+
+  </head>  
+
+
+  <body id="ov-bt">
+
+  <!-- <div class="preloader">
+    <img src="img/aiesec-logo.png">
+  </div> -->
+
+    <!-- Fixed navbar -->
+    <div id="myNavDiv">
+        
+    </div>
+
+    <div class="principal-M background_body">        
+
+        <!-- Seccion 2 -->
+
+        <div class="black_absolute2">
+
+        <!-- Box -->
+
+        <div class="col-md-9 just-center-hor">
+
+        <div style="padding: 20px 0px;">
+
+        <h2 style="margin-top: 0px;"><strong>Gracias por tu registro</strong></h2>
+        <br>                
+
+        <p style="font-size: 15px; max-width: 600px;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+        <br>
+
+        <a href="#" class="gral-btn">Call to Action</a>
+
+        </div>
+
+        </div>
+
+        <!-- Fin Box -->
+
+        </div>
+        <!-- Fin Seccion 2 -->
+
+
+    </div>   
+    <!-- Fin Contenido General -->
+
+
+
+    <!-- Footer -->
+        <div class="col-md-12 footer">
+        <div class="footer-width">
+
+            <div class="col-md-3">
+            <p>Conoce tu oficina más cercana</p>
+                <div id="map" style="height:20vh;"></div>
+            </div>
+
+            <div class="col-md-6" >
+                
+                <p>Síguenos en nuestras redes sociales y entérate de nuestras noticias</p>
+                <div class="sn">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <!-- <i class="fa fa-snapchat"></i> -->
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p class="middle-text">Síguenos en nuestras redes sociales y entérate de nuestras noticias. Síguenos en nuestras redes sociales y entérate de nuestras noticias. Síguenos en nuestras redes sociales y entérate de nuestras noticias. Síguenos en nuestras redes sociales y entérate de nuestras noticias. </p>
+                
+            </div>
+
+            <div class="col-md-3 right-text" >
+                
+                    <p>Síguenos en nuestras redes sociales y entérate de nuestras noticias.</p>
+                                
+            </div>
+            
+            </div>
+        </div>
+        <!-- Fin Footer -->
+
+
+        <script>          
+          $(window).bind("load", function() {
+
+             /*$('.black_absolute2').height($(".tab-content").height()*1.6);*/
+             $('.black_absolute2').css('min-height', $(".tab-content").height()*1.4);             
+
+             jQuery('.preloader').css('opacity', '0');
+             setInterval(function(){
+              $( ".preloader" ).remove();
+            },2000);   
+
+          });
+
+        </script>
+
+            
+
+
+            <script>
+            $(document).ready(function() {
+
+              var owl = $('.owl-carousel');
+              var owl2 = $('.owly-2');
+
+              owl.owlCarousel({
+                loop:true,
+                items:1,
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:3000,
+                autoPlaySpeed: 500,
+                autoplayHoverPause:false
+              });
+
+
+              owl2.owlCarousel({
+                loop:true,
+                items:1,
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:3000,
+                autoPlaySpeed: 500,
+                autoplayHoverPause:false
+              });
+
+            })
+          </script>
+
+
+    <script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10        
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6kThpr5OdNQSxlXNJvhmpke6iZFwAAkM&callback=myMap"></script> 
+
+  </body>
+</html>

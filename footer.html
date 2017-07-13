@@ -1,0 +1,42 @@
+        <div class="col-md-12 footer">
+        <div class="footer-width">
+
+            <div class="col-md-3">
+            <p>Conoce tu oficina más cercana</p>
+                <div id="map" style="height:20vh;"></div>
+            </div>
+
+            <div class="col-md-6" >
+                
+                <p>Síguenos en nuestras redes sociales y entérate de nuestras noticias</p>
+                <div class="sn">
+                    <a class="a-icon" href="https://www.facebook.com/AIESECMX"><i class="fa fa-facebook"></i></a>
+                    <a class="a-icon" href="https://twitter.com/AIESECMexico"><i class="fa fa-twitter"></i></a>
+                    <a class="a-icon" href="https://www.instagram.com/aiesecenmexico/"><i class="fa fa-instagram"></i></a>
+                    <!-- <i class="fa fa-snapchat"></i> -->
+                    <a class="a-icon" href="https://mx.linkedin.com/company/aiesec-mexico"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p class="middle-text">Síguenos en nuestras redes sociales y entérate de nuestras noticias. Síguenos en nuestras redes sociales y entérate de nuestras noticias. Síguenos en nuestras redes sociales y entérate de nuestras noticias. Síguenos en nuestras redes sociales y entérate de nuestras noticias. </p>
+                
+            </div>
+
+            <div class="col-md-3 right-text" >
+                
+                    <p>Síguenos en nuestras redes sociales y entérate de nuestras noticias.</p>
+                                
+            </div>
+            
+            </div>
+        </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6kThpr5OdNQSxlXNJvhmpke6iZFwAAkM&callback=myMap"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10        
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
